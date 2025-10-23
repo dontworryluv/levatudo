@@ -1,0 +1,552 @@
+body {
+  margin: 0;
+  background-color: #f5f4e6;
+  font-family: "Libre Baskerville", serif;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.topo {
+  background-color: #06234b;
+  color: #d6ac4d;
+  padding: 15px;
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: "Cinzel Decorative", serif;
+  text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.logo-icon {
+  height: 80px;
+}
+
+.logo-texto {
+  color: #d6ac4d;
+  font-size: 42px;
+  font-weight: bold;
+  font-family: "Cinzel Decorative", serif;
+}
+
+.menusuperior {
+  display: flex;
+  font-family: "Libre Baskerville", serif;
+  height: 30px;
+}
+
+.inicio,
+.ofertas,
+.inicio1,
+.ofertas1,
+.produtos1,
+.produtos {
+  width: 33.33%;
+  font-size: 14px;
+  border: 1px solid #ed932a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1px;
+}
+
+.inicio1,
+.ofertas1,
+.produtos1 {
+  background-color: #d4a84186;
+  font-weight: bold;
+}
+
+.ofertas,
+.inicio,
+.produtos {
+  background-color: #06234b;
+}
+
+.ofertas a,
+.produtos a,
+.inicio1 a,
+.ofertas1 a,
+.produtos1 a,
+.inicio a {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.inicio a {
+  color: black;
+}
+
+.icone-menu {
+  width: 16px;
+}
+
+.principal {
+  display: flex;
+  height: calc(100vh - 130px);
+}
+
+.lateral {
+  background-color: #06234b;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 40px 15px 20px;
+  box-sizing: border-box;
+  height: 100%;
+  position: relative;
+}
+
+.conteudo h1 {
+  font-size: 30px;
+}
+
+.conteudo {
+  flex-grow: 1;
+  padding: 0px 60px;
+  text-align: center;
+  overflow-y: auto;
+}
+.conteudo2 {
+  flex-grow: 1;
+  padding: 0px 60px;
+  text-align: justify;
+  overflow-y: auto;
+}
+
+.lateral nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  gap: 10px;
+}
+
+.icone-menu-lateral {
+  width: 20px;
+}
+
+.icone-menu-lateral-2 {
+  width: 26px;
+}
+.logo-inferior {
+  width: 90px;
+  align-self: center;
+}
+
+.conteudo h1 {
+  font-size: 30px;
+  font-family: "Libre Baskerville", serif;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.destaque {
+  font-weight: bold;
+  font-size: 19px;
+}
+
+.conteudo p {
+  font-size: 16px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.linha {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.imagem-mercado {
+  max-width: 400px;
+  border-radius: 10px;
+}
+
+.linha {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.categorias {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 70px;
+}
+
+.categoria {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 220px;
+  text-align: center;
+  min-height: 310px;
+  padding-top: 5px;
+}
+
+.icone-acougue,
+.icone-adega,
+.icone-higiene {
+  height: 80px;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+
+.categoria h3 {
+  font-family: "Libre Baskerville", serif;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.4;
+  margin-bottom: 10px;
+}
+
+.categoria p {
+  font-family: "Libre Baskerville", serif;
+  font-size: 14px;
+  line-height: 1.4;
+  margin: 0;
+}
+
+.icon-superior {
+  height: 45px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.icone-menu {
+  height: 16px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.topo {
+  background-color: #06234b;
+  color: #d6ac4d;
+  padding: 15px 30px;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: "Cinzel Decorative", serif;
+  text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mapa {
+  height: 246.4px;
+  width: 894.7px;
+}
+
+.icon-superior {
+  height: 80px;
+  margin-top: 0 auto;
+}
+
+.icon-canto-direito {
+  height: 80px;
+}
+
+.texto-topo {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.rodape {
+  background-color: rgba(128, 128, 128, 0.318);
+  color: #000000ac;
+  padding: 5px;
+  text-align: center;
+  font-family: "Libre Baskerville", serif;
+  font-size: 10px;
+}
+
+.sul {
+  text-align: left;
+}
+.noro {
+  text-align: center;
+}
+.norte {
+  text-align: right;
+}
+.perguntas {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  margin-bottom: 60px;
+  text-align: justify;
+}
+
+.perguntas2 {
+  width: 450px;
+  text-align: justify;
+}
+
+.destaque2 {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 5px;
+  margin-top: 20px;
+  font-family: "Libre Baskerville", serif;
+  text-align: justify;
+}
+
+.res {
+  font-size: 14px;
+  line-height: 1.6;
+  text-align: justify;
+  font-family: "Libre Baskerville", serif;
+  margin-bottom: 15px;
+}
+
+#titulo {
+  text-align: center;
+}
+
+.local {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.bloco-local {
+  max-width: 260px;
+  font-family: "Libre Baskerville", serif;
+  font-size: 14px;
+}
+
+.bloco-local h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #10356c;
+}
+
+.bloco-local strong {
+  display: block;
+  margin-top: 8px;
+  font-weight: bold;
+}
+
+.pagina-clube {
+  background: url("imagens/vip-logo.png") no-repeat center center;
+  background-size: 700px;
+  background-position: 64% 100%;
+  background-color: #fdfaf1;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: "Libre Baskerville", serif;
+}
+
+.pagina-ofertas {
+  background-color: #fdfaf1;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: "Libre Baskerville", serif;
+}
+.clube-conteudo {
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  max-width: 500px;
+}
+
+.clube-conteudo h1 {
+  font-size: 36px;
+  margin-bottom: 25px;
+  font-weight: bold;
+  color: #1a1a1a;
+}
+
+.beneficios {
+  text-align: left;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 30px;
+  padding-left: 20px;
+}
+
+.botao-vip {
+  background-color: #001a33;
+  color: rgb(255, 255, 255);
+  padding: 12px 24px;
+  border: 2px solid #d6ac4d;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.botao-vip:hover {
+  background-color: #d6ac4d;
+  color: #001a33;
+}
+
+.titulo-produtos {
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 30px;
+  font-family: "Libre Baskerville", serif;
+  font-weight: bold;
+  color: #1a1a1a;
+}
+
+.produtos-lista {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 0 40px;
+  text-align: left;
+  margin-left: 5%;
+}
+
+.produtos-lista ul {
+  list-style: disc;
+  max-width: 60%;
+  padding-left: 20px;
+  font-family: "Libre Baskerville", serif;
+  font-size: 19px;
+  line-height: 1.6;
+}
+
+.produtos-lista ul li {
+  margin-bottom: 20px;
+}
+
+.produtos-lista ul li strong {
+  color: #06234b;
+  font-size: 19px;
+}
+
+.produtos-lista ul li span {
+  display: block;
+  color: #000000;
+  font-size: 16px;
+  margin-top: 2px;
+}
+
+.imagens-produtos {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+
+.vinho-chocolate {
+  position: absolute;
+  left: 160px;
+  width: 150px;
+}
+
+.selo-satisfacao {
+  position: absolute;
+  top: 150px;
+  left: 0;
+  width: 150px;
+  z-index: 2;
+}
+
+.carnes {
+  position: absolute;
+  right: 270px;
+  width: 200px;
+  top: 25px;
+}
+
+.alimentos {
+  position: absolute;
+  top: 300px;
+  right: 300px;
+  width: 160px;
+}
+
+.trufas-azeite {
+  position: absolute;
+  top: 250px;
+  left: 160px;
+  width: 150px;
+}
+
+.lateral a.ativo {
+  border: 2px solid #f5b349;
+  border-radius: 8px;
+  padding: 8px;
+  display: flex;
+}
+
+.colunas-ofertas {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 60px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  padding: 0 20px;
+}
+
+.coluna {
+  flex: 1;
+  min-width: 320px;
+  max-width: 500px;
+}
+
+.titulo-ofertas {
+  font-size: 2.4em;
+  text-align: center;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 20px;
+}
+
+.subtitulo {
+  font-size: 1.4em;
+  font-weight: 600;
+  margin: 30px 0 10px;
+  text-align: center;
+}
+
+.oferta {
+  margin-bottom: 20px;
+}
+
+.oferta h4 {
+  font-size: 1.2em;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #06234b;
+}
+
+.oferta p {
+  font-size: 1em;
+  line-height: 1.6;
+  color: #242424;
+}
